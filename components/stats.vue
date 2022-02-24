@@ -82,8 +82,8 @@ export default {
            
                 img{
                     position: absolute;
-                    top: 25px;
-                    right: 0;
+                    top:15px;
+                    right: 15px;
                 }
                 
             }

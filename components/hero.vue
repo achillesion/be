@@ -201,7 +201,7 @@ text-align: center;
           left: 22vw!important;
         } 
         .text{
-          top: 0px!important;
+          top: 12px!important;
         }
 
     }

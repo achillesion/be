@@ -881,6 +881,7 @@ h1.ornate-core i {
 
 @media only screen and (max-width: 600px) {
   section {
+    min-height: 70vh;
     h1.ornate-core {
       font-size: 28px;
       top: 0px !important;
@@ -1156,7 +1157,7 @@ h6 {
 
 .c-sliding-tabs__background-wrapper {
   width: 100%;
-  height: 561px;
+  height: 100vh;
   left: 0;
   overflow: hidden;
   position: absolute;
@@ -1455,7 +1456,7 @@ h4.c-sliding-tab__title--horizontal {
 
 @media (min-width: 768px) {
   .c-sliding-tabs__tabcontent {
-    height: 576px;
+    height: 100vh;
   }
   .c-sliding-tabs__background-wrapper {
     min-height: 100vh;
@@ -1622,7 +1623,7 @@ h4.c-sliding-tab__title--horizontal {
   .core-section {
   }
   .core-section_roles {
-    padding-bottom: 144px;
+    // padding-bottom: 144px;
   }
   .c-sectiontitle {
     padding-right: 25px;
@@ -1637,7 +1638,7 @@ h4.c-sliding-tab__title--horizontal {
   }
   .c-sliding-tabs__tabs {
     margin-left: -612px;
-    top: 200px;
+    top: 250px;
     width: 1224px;
   }
   .c-sliding-tabs__tabs h3 {

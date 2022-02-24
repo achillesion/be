@@ -129,10 +129,10 @@ export default {
   background: #081519;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 70vh;
   margin: 0 auto;
   overflow: hidden;
-  padding-top: 50px;
+  // padding-top: 50px;
 }
 h1.ornate-races {
   position: relative;
@@ -202,8 +202,10 @@ h1.ornate-races i {
   content: "\E905";
 }
 .champions-section__container {
-  margin: 14rem 0;
-  overflow: visible;
+  margin: 5rem 0;
+  min-height: 150vh;
+  // overflow: visible;
+
 }
 .swiper-container {
   margin-left: auto;
@@ -212,9 +214,22 @@ h1.ornate-races i {
   overflow: hidden;
   z-index: 1;
 }
+.home-champions{
+    background-color: #000;
+        background-image: url("../assets/imgs/gamestories/bg.png");
+        width: 100%;
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center center;
+        padding-top: 100px;
+        color: #fff;
+        min-height: 130vh;
+}
 .home-champions .swiper-container {
   overflow: visible;
   margin-left: -1.2rem;
+  margin-top:100px ;
+  
 }
 .home-champions .swiper-slide-active,
 .home-champions .swiper-slide-duplicate-active {

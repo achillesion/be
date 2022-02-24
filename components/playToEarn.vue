@@ -33,9 +33,9 @@ export default {
         background-size: cover;
         background-repeat:no-repeat;
         background-position: center center;
-        padding-top: 100px;
+        
         color: #fff;
-        min-height: 70vh;
+        min-height: 100vh;
         
         
     .container{
@@ -109,11 +109,17 @@ export default {
     }
 }
 
+@media only screen and (min-width: 600px) {
+    section{
+         padding: 100px 150px 100px 150px;
+    }
+
+}
 
 //Mobile QUesries
  @media only screen and (max-width: 600px) {
   section {
-      
+     
     .container{
       flex-direction: column !important;
       .image{
