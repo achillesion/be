@@ -1,6 +1,10 @@
 <template>
 <section id="hero" class="pb-10">
-    <div class="container">
+  <video autoplay muted loop id="myVideo">
+  <source src="../assets/imgs/hero/video.mp4" type="video/mp4">
+  </video>
+  <div>
+       <div class="container">
       <div>
          <img class="hero-logo" src="../assets/imgs/hero/beyond-earth.png" > 
       </div>
@@ -17,6 +21,8 @@
        </div>
       
     </div>
+  </div>
+ 
 </section>
 </template>
 
@@ -38,6 +44,10 @@ export default {
     background-color: #000;
     display: flex;
     justify-content: center;
+
+    video{
+
+    }
     
     .container{
       max-width: 500px;

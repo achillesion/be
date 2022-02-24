@@ -48,11 +48,11 @@
                 class="c-objectfit c-objectfit--cover c-objectposition c-objectposition--center"
               >
                 <source
-                  srcset="../assets/imgs/corefeatures/bgs/explore.png"
+                  srcset="../assets/imgs/corefeatures/bgs/explore-bg.jpg"
                   media="(max-width: 420px)"
                 />
                 <img
-                  src="../assets/imgs/corefeatures/bgs/explore.png"
+                  src="../assets/imgs/corefeatures/bgs/explore-bg.jpg"
                   data-mediaslot="one"
                 />
               </picture>
