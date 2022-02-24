@@ -1,12 +1,12 @@
 <template>
     <section id="stats-Sub">
         <div class="container">
-            <h2 class="heading">BEO Stats</h2>
+            <h2 class="heading">GTT Stats</h2>
         </div>
         <div class="container">
             
             <div class="price">
-                <h4>BEO Price <span> +1.5%</span></h4>
+                <h4>GTT Price <span> +1.5%</span></h4>
                 <h1>$2,522,90</h1>
             </div>
 
@@ -15,14 +15,14 @@
 
             <div class="rewards">
                  <h4>Daily Rewards </h4>
-                <h1>65.816 BEO</h1>
+                <h1>65.816 GTT</h1>
             </div>
            
              <img src="../assets/imgs/subhero/yellow-box.svg" alt="Yellow Box">
 
             <div class="supply">
                  <h4>CIRCULATING SUPPLY</h4>
-                <h1>78,231,5433 BEO</h1>
+                <h1>78,231,5433 GTT</h1>
             </div>
         </div>
     </section>
@@ -77,6 +77,7 @@ section{
         justify-content: space-between;
         align-items: center;
         margin: 0px auto;
+        padding: 0px 150px 0px 150px;
         .price{
             
         }

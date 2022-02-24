@@ -10,7 +10,7 @@
          <p>BEO is a Top Down PvP focused Massively MultiPlayer Online  game, powered by NFT technology on <span class="bold-p">ETHEREUM BLOCKCHAIN</span></p>
           <button>
           <span class='image'></span>
-          <span class='text'>PLAY FOR FREE</span>
+          <span class='text'>Play Now</span>
           </button>
 
           <img id="marker" src="../assets/imgs/hero/marker.png" alt="" style="width:20px; ">

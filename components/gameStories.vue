@@ -3,7 +3,7 @@
         <div class="container">
             <div class="video">
                 <span class="frame"></span>
-                <iframe src="https://www.youtube.com/embed/5L3wKniOnro?autoplay=1" width="608" height="100%" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/R1_JUFBbFBM1" width="608" height="100%" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="text-container">
                 <h1>Game Stories</h1>
@@ -34,7 +34,8 @@ export default {
         
         
     .container{
-        margin: 20px auto !important; ;
+        margin: 0px auto !important;
+        padding: 0px 150px 0px 150px;
         padding-bottom: 100px;
         display: flex;
         flex-direction: row;

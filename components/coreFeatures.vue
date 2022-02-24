@@ -48,11 +48,11 @@
                 class="c-objectfit c-objectfit--cover c-objectposition c-objectposition--center"
               >
                 <source
-                  srcset="../assets/imgs/corefeatures/bgs/explore-bg.jpg"
+                  srcset="../assets/imgs/corefeatures/bgs/explore.png"
                   media="(max-width: 420px)"
                 />
                 <img
-                  src="../assets/imgs/corefeatures/bgs/explore-bg.jpg"
+                  src="../assets/imgs/corefeatures/bgs/explore.png"
                   data-mediaslot="one"
                 />
               </picture>
@@ -81,11 +81,11 @@
                 class="c-objectfit c-objectfit--cover c-objectposition c-objectposition--center"
               >
                 <source
-                  srcset="../assets/imgs/corefeatures/bgs/treasure-bg.jpg"
+                  srcset="../assets/imgs/corefeatures/bgs/treasure.png"
                   media="(max-width: 420px)"
                 />
                 <img
-                  src="../assets/imgs/corefeatures/bgs/treasure-bg.jpg"
+                  src="../assets/imgs/corefeatures/bgs/treasure.png"
                   data-mediaslot="one"
                 />
               </picture>
@@ -114,11 +114,11 @@
                 class="c-objectfit c-objectfit--cover c-objectposition c-objectposition--center"
               >
                 <source
-                  srcset="../assets/imgs/corefeatures/bgs/trade-bg.jpg"
+                  srcset="../assets/imgs/corefeatures/bgs/trading.png"
                   media="(max-width: 420px)"
                 />
                 <img
-                  src="../assets/imgs/corefeatures/bgs/trade-bg.jpg"
+                  src="../assets/imgs/corefeatures/bgs/trading.png"
                   data-mediaslot="one"
                 />
               </picture>
@@ -1551,7 +1551,7 @@ h4.c-sliding-tab__title--horizontal {
 
 @media (min-width: 1024px) {
   .core-section {
-    padding: 71px 0 0;
+    padding: 0 0 0;
   }
   .c-sliding-tabs__tabs {
     margin-left: -433px;
