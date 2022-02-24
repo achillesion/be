@@ -5,7 +5,7 @@
          <img class="hero-logo" src="../assets/imgs/hero/beyond-earth.png" > 
       </div>
        <div class="text-container">
-         <h1 class="heading">Ahmad Bashir</h1>
+         <h1 class="heading">MMORPG</h1>
          <h2>BLOCKCHAIN POWERED</h2>
          <p>BEO is a Top Down PvP focused Massively MultiPlayer Online  game, powered by NFT technology on <span class="bold-p">ETHEREUM BLOCKCHAIN</span></p>
           <button>
