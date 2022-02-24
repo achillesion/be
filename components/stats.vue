@@ -84,6 +84,7 @@ export default {
                     position: absolute;
                     top:15px;
                     right: 15px;
+                    opacity: 0!important;
                 }
                 
             }

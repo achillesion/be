@@ -22,7 +22,7 @@
 
             <div class="supply">
                  <h4>CIRCULATING SUPPLY</h4>
-                <h1>78,231,5433 GTT</h1>
+                <h1>78,231,5433 </h1>
             </div>
         </div>
     </section>
@@ -115,12 +115,24 @@ section{
       background-size: 1500px;
     .container{
       flex-direction: column;
-      margin: 20px 0px 20px 0px;
+      margin: 20px 0px 20px 0px!important;
+    padding: 0px 0px 0px 0px!important;
       h1{
           font-size: 24px;
       }
     }
      
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #stats-Sub {
+    .container{
+    
+      h1{
+          font-size: 24px;
+      }
+    } 
   }
 }
 

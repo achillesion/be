@@ -105,6 +105,7 @@ export default {
                     margin-top: 10px;
                     margin-left: 20px;                }
             }
+            
         }
     }
 }
@@ -122,11 +123,12 @@ export default {
      
     .container{
       flex-direction: column !important;
+      padding-bottom: 100px;
       .image{
           
           img{
-              margin-left: 0px!important;
-              margin-right:50px ;
+              margin-left: 100px!important;
+              
           }
        
       }
