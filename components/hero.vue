@@ -1,8 +1,8 @@
 <template>
 <section id="hero" class="pb-10">
-  <video autoplay muted loop id="myVideo">
+  <!-- <video autoplay muted loop id="myVideo">
   <source src="../assets/imgs/hero/video.mp4" type="video/mp4">
-  </video>
+  </video> -->
   <div>
        <div class="container">
       <div>

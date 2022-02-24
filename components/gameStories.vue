@@ -100,9 +100,10 @@ export default {
 
  @media only screen and (max-width: 600px) {
   section {
-      
+      min-height: 120vh!important;
     .container{
       flex-direction: column !important;
+      padding: 0px 0px 0px 0px!important;
       .video{
           
         //   flex: 1;
