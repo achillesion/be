@@ -11,7 +11,7 @@
        <div class="text-container">
          <h1 class="heading">MMORPG</h1>
          <h2>BLOCKCHAIN POWERED</h2>
-         <p>BEO is a Top Down PvP focused Massively MultiPlayer Online  game, powered by NFT technology on <span class="bold-p">ETHEREUM BLOCKCHAIN</span></p>
+         <p>GTT is a Top Down PvP focused Massively MultiPlayer Online  game, powered by NFT technology on <span class="bold-p">POLYGON BLOCKCHAIN</span></p>
           <button>
           <span class='image'></span>
           <span class='text'>Play Now</span>
