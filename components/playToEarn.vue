@@ -111,7 +111,7 @@ export default {
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     section{
          padding: 100px 150px 100px 150px;
     }
@@ -119,7 +119,7 @@ export default {
 }
 
 //Mobile QUesries
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 822px) {
   section {
      
     .container{

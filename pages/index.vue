@@ -2,15 +2,15 @@
   <div class="home">
     
     <Navigation />
-    <Hero />
-    <SubHero />
-    <GameStories />  
+    <Hero /> 
+     <SubHero />
+    <!-- <GameStories />    -->
     <CoreFeatures />
     <GalacticRaces/>
     <PlayToEarn/>
     <Stats/>
     <StatsSub/>
-    <OurTeam/>
+    <!-- <OurTeam/> -->
     <Footer /> 
     
     

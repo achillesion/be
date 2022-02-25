@@ -11,7 +11,7 @@
        <div class="text-container">
          <h1 class="heading">MMORPG</h1>
          <h2>BLOCKCHAIN POWERED</h2>
-         <p>GTT is a Top Down PvP focused Massively MultiPlayer Online  game, powered by NFT technology on <span class="bold-p">POLYGON BLOCKCHAIN</span></p>
+         <p>GTT is a Top Down PvP focused Massively MultiPlayer Online  game, powered by NFT technology on <span class="bold-p">POLYGON NETWORK</span></p>
           <button>
           <span class='image'></span>
           <span class='text'>Play Now</span>
@@ -189,15 +189,55 @@ text-align: center;
   
 }
 
+@media only screen and (min-device-width: 720px) and (max-device-width: 828px) {
+  .container{
+    margin-top: 200px;
+  }
+
+  
+  
+  h1::before{
+              content:"";
+                position: absolute;
+                /* top:20px; */
+                left:50px !important;;
+                width: 100px;
+                background-image: url("../assets/imgs/hero/before.png") ;
+                background-repeat: no-repeat;
+                height: 50px;
+               
+      }
+       h1::after{
+              content:"";
+                position: absolute;
+                /* top:20px; */
+                right: 50px !important;;
+                width: 100px;
+                background-image: url("../assets/imgs/hero/after.png") ;
+                background-repeat: no-repeat;
+                height: 50px;
+               
+      }
+
+}
+
 @media only screen and (max-width: 600px) {
   #hero {
     /* background-position: 44% 50%; */
     #myVideo{
        
-      height: 800px;
+      
+       #myVideo{
+       object-fit: cover;
+      width: 100vw;
+      height: 120vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
       }
     .container{
-
+        margin-top: 100px;
       
      
       img{
@@ -222,8 +262,9 @@ text-align: center;
     h1::before{
               content:"";
                 position: absolute;
-                top:20px;
-                left: 2vh !important;;
+                /* top:20px; */
+                /* left:2vh !important;; */
+                /* border: 1px solid red; */
                 width: 100px;
                 background-image: url("../assets/imgs/hero/before.png") ;
                 background-repeat: no-repeat;
@@ -234,8 +275,8 @@ text-align: center;
               content:"";
                 position: absolute;
                 top:20px;
-                left: 32vh !important;;
-                width: 100px;
+                right: 17px !important;;
+                width: 10px;
                 background-image: url("../assets/imgs/hero/after.png") ;
                 background-repeat: no-repeat;
                 height: 50px;
@@ -246,5 +287,31 @@ text-align: center;
 
 }
  
+ @media only screen and (min-width: 2000px) {
+  h1::before{
+              content:"";
+                position: absolute;
+                /* top:20px; */
+                /* left:100px !important;; */
+                /* border: 1px solid red; */
+                width: 100px;
+                background-image: url("../assets/imgs/hero/before.png") ;
+                background-repeat: no-repeat;
+                height: 50px;
+               
+      }
+       h1::after{
+              content:"";
+                position: absolute;
+                top:20px;
+                
+                 right: 80px !important;
+                width: 10px;
+                background-image: url("../assets/imgs/hero/after.png") ;
+                background-repeat: no-repeat;
+                height: 50px;
+               
+      }
+ }
 
 </style>

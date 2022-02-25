@@ -299,7 +299,7 @@ export default {
   background-size: cover;
   background-position: center;
   height: auto;
-  /* margin: 0px 100px 0px 100px; */
+  margin: 0px 100px 0px 100px;
 }
 h1.ornate {
   position: relative;
