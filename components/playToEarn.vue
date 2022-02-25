@@ -111,9 +111,10 @@ export default {
     }
 }
 
-@media only screen and (max-width: 600px) {
-    section{
-        //  padding: 100px 150px 100px 150px;
+@media only screen and (min-width: 1050px) {
+    #playToEarn{
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
 }
