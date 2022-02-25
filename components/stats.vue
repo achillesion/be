@@ -34,10 +34,11 @@ export default {
 <style lang="scss" scoped>
 
 #stats{
-    // position: relative;
+    position: relative;
     display: flex;
     flex-direction: column;
-    
+    background-color: #000;
+    padding-bottom: 20px;
     .container-stats{
         display: flex;
         flex-direction: column;

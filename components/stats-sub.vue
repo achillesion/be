@@ -47,7 +47,8 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top:25px ;
+    
+    // margin-top:25px ;
 
     h4{
                 font-family: Poppins;
