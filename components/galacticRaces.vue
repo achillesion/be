@@ -129,7 +129,7 @@ export default {
   background: #081519;
   display: flex;
   flex-direction: column;
-  height: 70vh;
+  height: 80vh;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -204,7 +204,7 @@ h1.ornate-races i {
 }
 .champions-section__container {
   margin: 5rem 0;
-  min-height: 150vh;
+  // min-height: 150vh;
   // overflow: visible;
 
 }
@@ -224,12 +224,13 @@ h1.ornate-races i {
         background-position: center center;
         padding-top: 100px;
         color: #fff;
-        min-height: 130vh;
+        height: 1200px;
 }
 .home-champions .swiper-container {
   overflow: visible;
   margin-left: -1.2rem;
-  margin-top:100px ;
+  margin-top: 150px;
+  
   
 }
 .home-champions .swiper-slide-active,
@@ -455,4 +456,69 @@ h1.ornate-races i {
 .icon-windows:before {
   content: "\EAC1";
 }
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1050px) {
+  
+    
+    h1.ornate-races {
+      font-size: 28px!important;
+      top: 0px !important;
+      }
+      
+       h1.ornate-races::after {
+      content: "";
+      position: absolute;
+     left:-120px;
+     
+      height: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+      }
+
+@media only screen and (min-device-width: 828px) and (max-device-width: 1500px) {
+  
+    
+    h1.ornate-races {
+     
+      top: 0px !important;
+    
+    }
+
+     h1.ornate-races::after {
+      content: "";
+      position: absolute;
+      top: 135px;
+      // left: 0px;
+     
+      height: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .home-champions{
+    background-color: #000;
+        background-image: url("../assets/imgs/gamestories/bg.png");
+        width: 100%;
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center center;
+        padding-top: 100px;
+        color: #fff;
+        height: 1100px!important;
+}
+
+    .home-champions .swiper-container {
+  overflow: visible;
+  margin-left: -1.2rem;
+  margin-top:200px ;
+  
+}
+
+
+}
+
+@m
+
+
 </style>

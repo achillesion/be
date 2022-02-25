@@ -8,7 +8,7 @@
             <div class="text-container">
                 <h1>Game Stories</h1>
                 <p>BEO is set in t he near future, 2035 to be exact. The nefarious group called Illuminati took over the world with their agenda 2030. The New World Order as it was called, ushered an alien invasion with the help of a neighboring race. This invasion helped their plan to take over and decimate most of the human race.
-                    5 years after the take down, there were barely any humans left. Most have been genetically modified for more than a decade through nano tech, and now are almost bionic in nature. Some of these bred humans disconnect from their programming and the hive mind, going rogue.</p>
+                    5 years after the take down, there were barely any humans left. </p>
             </div>
         </div>
     </section>
@@ -31,12 +31,12 @@ export default {
         background-position: center center;
         padding-top: 100px;
         color: #fff;
-        min-height: 575px;
+       
         
         
     .container{
         margin: 0px auto !important;
-        padding: 0px 150px 0px 150px;
+        padding: 0px 0px 0px 150px;
         padding-bottom: 100px;
         display: flex;
         flex-direction: row;
@@ -99,18 +99,29 @@ export default {
     }
 }
 
-@media only screen and (max-width: 850px) and (min-width: 600px){
-    section{
-        max-height: 65vh!important;
-    }
+@media only screen and (max-width: 1050px) {
+   #gameStories{
+       min-height: 750px;
+}
 }
 
- @media only screen and (max-width: 850px) {
+@media only screen and (max-width: 600px){
+   #gameStories{
+    //    border: 1px solid red;
+       height: 700px;
+}
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 1500px){
+    
+}
+
+ @media only screen and (max-width: 1050px) {
   section {
-      height: 130vh!important;
+      height: 500px!important;
     .container{
       flex-direction: column !important;
-      padding: 0px 0px 0px 0px!important;
+      padding: 50px 0px 0px 0px!important;
       .video{
           
         //   flex: 1;

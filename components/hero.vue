@@ -40,7 +40,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain; */
-    height: 100vh;
+    height: 900px;
     background-color: #000;
     display: flex;
     justify-content: center;
@@ -92,6 +92,7 @@ export default {
           position: relative;
      
           top: 12px;
+          left: 10px;
           color: #FFF;
           font-family: Poppins;
           font-style: normal;
@@ -190,8 +191,11 @@ text-align: center;
 
 @media only screen and (min-device-width: 720px) and (max-device-width: 828px) {
   .container{
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
+
+  
 
   
   
@@ -220,6 +224,7 @@ text-align: center;
 
 }
 
+
 @media only screen and (max-width: 600px) {
   #hero {
     /* background-position: 44% 50%; */
@@ -236,7 +241,7 @@ text-align: center;
     }
       }
     .container{
-        margin-top: 100px;
+        margin-top: 50px;
       
      
       img{
@@ -254,6 +259,7 @@ text-align: center;
         } 
         .text{
           top: 12px!important;
+          left: 0px!important;
         }
 
     }
@@ -287,11 +293,15 @@ text-align: center;
 }
  
  @media only screen and (min-width: 2000px) {
+
+   #hero{
+     min-height: 1600px;
+   }
   h1::before{
               content:"";
                 position: absolute;
                 /* top:20px; */
-                /* left:100px !important;; */
+                left:75px !important;;
                 /* border: 1px solid red; */
                 width: 100px;
                 background-image: url("../assets/imgs/hero/before.png") ;
@@ -310,6 +320,10 @@ text-align: center;
                 background-repeat: no-repeat;
                 height: 50px;
                
+      }
+
+      .container{
+        margin-top: 500px;
       }
  }
 

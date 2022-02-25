@@ -341,6 +341,7 @@ export default {
   background-size: cover;
   background-position: center;
   height: auto;
+  
   /* margin: 0px 100px 0px 100px; */
 }
 h1.ornate {
@@ -354,6 +355,7 @@ h1.ornate {
   text-align: center;
   max-width:20rem;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 

@@ -34,9 +34,9 @@ export default {
         background-repeat:no-repeat;
         background-position: center center;
         position: relative;
-        
+        padding-top: 75px;
         color: #fff;
-        min-height: 100vh;
+        min-height: 700px;
         
         
     .container{
@@ -53,7 +53,7 @@ export default {
                 // border: 1px solid red;
                 width:400px;
                 display: flex;
-                margin-left: 235px;
+                margin-left: 150px;
                
             }
           }
@@ -119,7 +119,7 @@ export default {
 }
 
 //Mobile QUesries
- @media only screen and (max-width: 822px) {
+ @media only screen and (max-width: 1025px) {
   section {
      
     .container{
@@ -165,5 +165,10 @@ export default {
       }
     }
      
+  }}
+
+  @media only screen and (min-width: 1440) {
+  section {
+      padding-top: 50px;
   }}
 </style>

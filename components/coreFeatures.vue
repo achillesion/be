@@ -1456,7 +1456,7 @@ h4.c-sliding-tab__title--horizontal {
 
 @media (min-width: 850px) {
   .c-sliding-tabs__tabcontent {
-    height: 80vh;
+    height: 100vh;
   }
   .c-sliding-tabs__background-wrapper {
     min-height: 100vh;
@@ -1638,7 +1638,7 @@ h4.c-sliding-tab__title--horizontal {
   }
   .c-sliding-tabs__tabs {
     margin-left: -612px;
-    top: 250px;
+    top: 200px;
     width: 1224px;
   }
   .c-sliding-tabs__tabs h3 {
@@ -1680,7 +1680,7 @@ h4.c-sliding-tab__title--horizontal {
 
 @media (max-width: 767px) {
   .core-section_roles {
-    margin-top: -54px;
+    // margin-top: -54px;
   }
   .c-role__character {
     left: -210px;
@@ -1700,12 +1700,24 @@ h4.c-sliding-tab__title--horizontal {
   }
 }
 
-@media only screen and (min-device-width: 720px) and (max-device-width: 828px) {
+@media only screen and (min-device-width: 720px) and (max-device-width: 1050px) {
    section {
     min-height: 580px!important;
     h1.ornate-core {
       font-size: 28px;
       top: 0px !important;
+      
+    }
+}}
+
+@media only screen and (min-device-width: 1050) and (max-device-width: 1500px) {
+   section {
+    // min-height: 800px!important;
+    // border: 1px solid red;
+    h1.ornate-core {
+      font-size: 60px;
+      top: 0px !important;
+      padding-top: 50px;
       
     }
 }}
