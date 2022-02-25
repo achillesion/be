@@ -42,7 +42,7 @@ export default {
 
 <style >
         footer {
-            
+            position: relative;
             
     background-color: #000;
     text-align: center;

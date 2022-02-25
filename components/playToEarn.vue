@@ -33,6 +33,7 @@ export default {
         background-size: cover;
         background-repeat:no-repeat;
         background-position: center center;
+        position: relative;
         
         color: #fff;
         min-height: 100vh;

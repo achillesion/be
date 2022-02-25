@@ -28,6 +28,7 @@ export default {
 <style lang="scss" scoped>
 
 #subHero{
+    position: relative;
     background-color: #222;
     background-image: url("../assets/imgs/subhero/particles.png");
     background-size: 2000px!important;

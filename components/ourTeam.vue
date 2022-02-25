@@ -291,6 +291,7 @@ export default {
 <style>
 @import "node_modules/slick-carousel/slick/slick.css";
 #ourTeam {
+  position: relative;
   padding: 70px 100px 20px 100px;
   background: #081519;
   background-image: url("../assets/imgs/ourteam/our-team-background.png"),

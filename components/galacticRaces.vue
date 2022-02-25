@@ -132,6 +132,7 @@ export default {
   height: 70vh;
   margin: 0 auto;
   overflow: hidden;
+  position: relative;
   // padding-top: 50px;
 }
 h1.ornate-races {

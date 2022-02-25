@@ -1,9 +1,9 @@
 <template>
-<section id="hero" class="pb-10">
-  <!-- <video autoplay muted loop id="myVideo">
+<section id="hero" class="">
+   <video autoplay muted loop id="myVideo">
   <source src="../assets/imgs/hero/video.mp4" type="video/mp4">
-  </video> -->
-  <div>
+  </video> 
+  <div class="maha-container">
        <div class="container">
       <div>
          <img class="hero-logo" src="../assets/imgs/hero/beyond-earth.png" > 
@@ -36,20 +36,29 @@ export default {
 <style lang ="scss" scoped>
   
   #hero {
-    background-image: url('../assets/imgs/hero/bg.png');
+    /* background-image: url('../assets/imgs/hero/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    object-fit: contain;
+    object-fit: contain; */
     height: 100vh;
     background-color: #000;
     display: flex;
     justify-content: center;
+    width: 100%;
 
-    video{
-
+    #myVideo{
+       object-fit: cover;
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
     }
-    
+    .maha-container{
+      position: absolute;
+    }
     .container{
+      position: relative;
       max-width: 500px;
       display: flex;
       flex-direction:column;
@@ -71,7 +80,7 @@ export default {
           background:url("../assets/imgs/hero/button.png") no-repeat top left;
           width: 500px;
           height: 50px;
-          left: calc(50vw - 120px);
+          left: 150px;
         } 
 
       @keyframes fadeIn {
@@ -81,9 +90,9 @@ export default {
 
         .text{ 
           position: relative;
-          /* border: 1px solid red; */
-          top: 13px;
-          left: -5px;
+     
+          top: 12px;
+          left:5px ;
           color: #FFF;
           font-family: Poppins;
           font-style: normal;
@@ -182,7 +191,11 @@ text-align: center;
 
 @media only screen and (max-width: 600px) {
   #hero {
-    background-position: 44% 50%;
+    /* background-position: 44% 50%; */
+    #myVideo{
+       
+      height: 800px;
+      }
     .container{
 
       

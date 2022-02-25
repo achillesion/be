@@ -22,6 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 #gameStories{
+    position: relative;
         background-color: #000;
         background-image: url("../assets/imgs/gamestories/bg.png");
         width: 100%;

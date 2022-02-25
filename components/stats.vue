@@ -34,6 +34,7 @@ export default {
 <style lang="scss" scoped>
 
 #stats{
+    position: relative;
     display: flex;
     flex-direction: column;
     
@@ -66,6 +67,7 @@ export default {
                     position: absolute;
                     top:15px;
                     right: 15px;
+                     opacity: 0.5!important;
                 }
                
                
@@ -84,7 +86,7 @@ export default {
                     position: absolute;
                     top:15px;
                     right: 15px;
-                    opacity: 0!important;
+                    opacity: 0.5!important;
                 }
                 
             }

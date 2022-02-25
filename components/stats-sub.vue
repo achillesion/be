@@ -37,8 +37,10 @@ export default {
 <style lang="scss" scoped>
 section{
     background-color: #222;
+    position: relative;
 }
 #stats-Sub{
+    position: relative;
     background-color: #222;
     color: #fff;
     min-height: 222px;
@@ -112,6 +114,7 @@ section{
 
   @media only screen and (max-width: 600px) {
   #stats-Sub {
+      
       background-size: 1500px;
     .container{
       flex-direction: column;
