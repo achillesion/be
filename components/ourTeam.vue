@@ -334,6 +334,7 @@ export default {
 @import 'node_modules/slick-carousel/slick/slick.css';
 #ourTeam {
   /* padding: 70px 100px 20px 100px; */
+  position: relative;
   background: #081519;
   background-image: url('../assets/imgs/ourteam/our-team-background.png'),
     linear-gradient(360deg, #000 0%, rgba(0, 0, 0, 0) 100%);
@@ -424,8 +425,8 @@ h1.ornate:after {
 
 @media (min-width: 1140px) {
  #ourTeam {
-   margin-left: 100px;
-   margin-right: 100px;
+   padding-left: 100px;
+   padding-right: 100px;
    
 }
 }
@@ -474,7 +475,7 @@ h1.ornate:after {
 @media only screen and (max-width: 600px) {
    
     #ourTeam {
-   margin-bottom: 50px;
+   padding-bottom: 50px;
    
 }
    

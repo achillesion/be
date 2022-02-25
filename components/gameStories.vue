@@ -99,9 +99,15 @@ export default {
     }
 }
 
- @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) and (min-width: 600px){
+    section{
+        max-height: 65vh!important;
+    }
+}
+
+ @media only screen and (max-width: 850px) {
   section {
-      min-height: 120vh!important;
+      height: 130vh!important;
     .container{
       flex-direction: column !important;
       padding: 0px 0px 0px 0px!important;

@@ -4,7 +4,7 @@
     <Navigation />
     <Hero /> 
      <SubHero />
-    <!-- <GameStories />    -->
+    <GameStories />   
     <CoreFeatures />
     <GalacticRaces/>
     <PlayToEarn/>

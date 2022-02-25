@@ -53,7 +53,7 @@ export default {
                 // border: 1px solid red;
                 width:400px;
                 display: flex;
-                margin-left: 100px;
+                margin-left: 235px;
                
             }
           }

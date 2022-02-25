@@ -881,7 +881,7 @@ h1.ornate-core i {
 
 @media only screen and (max-width: 600px) {
   section {
-    min-height: 70vh;
+    min-height: 60vh;
     h1.ornate-core {
       font-size: 28px;
       top: 0px !important;
@@ -1454,9 +1454,9 @@ h4.c-sliding-tab__title--horizontal {
 
 /********** Media Queries ***********/
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
   .c-sliding-tabs__tabcontent {
-    height: 100vh;
+    height: 80vh;
   }
   .c-sliding-tabs__background-wrapper {
     min-height: 100vh;
@@ -1699,4 +1699,14 @@ h4.c-sliding-tab__title--horizontal {
     padding-right: 25px;
   }
 }
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 828px) {
+   section {
+    min-height: 580px!important;
+    h1.ornate-core {
+      font-size: 28px;
+      top: 0px !important;
+      
+    }
+}}
 </style>
