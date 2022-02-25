@@ -285,7 +285,7 @@ h1.ornate-races i {
 }
 .home-champions .champion__image {
   display: flex;
-  height: 75rem;
+  height: 100rem;
   justify-content: center;
   position: relative;
   top: 5rem;

@@ -34,7 +34,7 @@ export default {
 <style lang="scss" scoped>
 
 #stats{
-    position: relative;
+    // position: relative;
     display: flex;
     flex-direction: column;
     
