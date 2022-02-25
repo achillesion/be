@@ -10,7 +10,7 @@
     <PlayToEarn/>
     <Stats/>
     <StatsSub/>
-    <!-- <OurTeam/> -->
+    <OurTeam/>
     <Footer /> 
     
     

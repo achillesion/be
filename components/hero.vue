@@ -92,7 +92,6 @@ export default {
           position: relative;
      
           top: 12px;
-          left:5px ;
           color: #FFF;
           font-family: Poppins;
           font-style: normal;

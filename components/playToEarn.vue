@@ -113,7 +113,7 @@ export default {
 
 @media only screen and (max-width: 600px) {
     section{
-         padding: 100px 150px 100px 150px;
+        //  padding: 100px 150px 100px 150px;
     }
 
 }

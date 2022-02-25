@@ -79,6 +79,7 @@ export default {
     .container{
       flex-direction: column;
       margin: 20px 0px 20px 0px;
+      padding-bottom: 50px;
       h1{
           font-size: 24px;
       }
