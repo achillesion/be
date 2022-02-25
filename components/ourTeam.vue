@@ -487,7 +487,7 @@ h1.ornate:after {
       content: "";
       position: absolute;
       width: 200px!important;
-      background-image: url("../assets/imgs/coreFeatures/line-mobile.png");
+      background-image: url("../assets/imgs/corefeatures/line-mobile.png");
       object-fit: cover;
       background-repeat: no-repeat;
       height: 20px;
