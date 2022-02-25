@@ -849,7 +849,7 @@ h1.ornate-core {
   z-index: 1;
   white-space: nowrap;
   top: 10vh;
-  left: 35vw;
+  left: 30vw;
   z-index: 9;
 }
 h1.ornate-core:after {
